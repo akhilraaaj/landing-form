@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.background {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 2.48%, #1C1636 78.69%), url("/heroSmImg.svg");
+}
+
+@media (min-width: 768px) {
+    .background {
+        background-image: linear-gradient(90.56deg, rgba(19, 15, 42, 0.8) 20.12%, rgba(0, 0, 0, 0) 77.09%), url("/heroImage.svg");
+    }
+}
+
+.hero-place {
+    background-image: linear-gradient(95.83deg, #F8F8FF 23.47%, #F4E9FF 31.83%, #FFF5EC 90.04%, #E8E8FF 52.42%), url("/placedImg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+
+
